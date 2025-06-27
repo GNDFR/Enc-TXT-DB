@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  margin: auto;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+textarea, input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: monospace;
+  transition: border 0.3s;
+}
+
+textarea:focus, input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button#copyEncryptedText,
+button#copyDecryptedText {
+  background-color: #28a745;
+}
+
+button#copyEncryptedText:hover,
+button#copyDecryptedText:hover {
+  background-color: #218838;
+}
+
+button#retrieveBtn {
+  background-color: #6c757d;
+}
+
+button#retrieveBtn:hover {
+  background-color: #5a6268;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+  word-break: break-all;
+}
