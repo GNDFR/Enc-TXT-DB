@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const SERVER_URL = 'https://YOUR-VERCEL-BACKEND.vercel.app/api';
+  const SERVER_URL = 'https://enc-txt-db.vercel.app/api';
 
   // PBKDF2 + AES 암호화
   function encryptAES(plain, password) {
